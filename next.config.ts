@@ -27,6 +27,9 @@ const nextConfig: NextConfig = {
       'gpt-tokenizer',
       'chroma-js',
     ],
+    turbo: {
+      resolveExtensions: ['.mdx', '.tsx', '.ts', '.jsx', '.js', '.mjs', '.json'],
+    },
     webVitalsAttribution: ['CLS', 'LCP'],
   },
 
